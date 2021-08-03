@@ -65,6 +65,33 @@ ul {
   text-transform: uppercase;
 }
 
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.output {
+  color: #230338;
+  margin: 1rem;
+  padding: 1rem;
+  width: 100%;
+  border: 2px solid #ed5107;
+}
+
+
+/* HEADER HERO */
+
 .hero {
   /* background: #810000; */
   background: #230338;
@@ -222,6 +249,7 @@ input.birthdate {
   border: 2px solid #230338;
 }
 
+
 button.btn-check {
   font-size: 1.3rem;
   padding: 0.5rem 0.75rem;
@@ -230,11 +258,17 @@ button.btn-check {
   color: #fff;
   background-color: rgba(237, 80, 7);
   font-weight: bold;
+  margin-bottom: 0;
 }
 
-.display-none {
-  display: none;
+
+.message {
+  font-weight: bold;
+  font-size: 1.2rem;
 }
+
+
+/* FOOTER */
 
 
 .footer {
