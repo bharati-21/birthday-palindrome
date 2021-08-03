@@ -36,9 +36,41 @@
           </div>
         </div>
       </header>
-      <main class="main container" id="main">
-      <h1>Hello</h1></main>
-      <footer class="footer container"></footer>
+      <main class="main" id="main">
+        <div id="main-wrapper" class="container">
+          <section class="check-header">
+            <h2 class="section-head">Enter your <span class="color-primary">Birthdate</span> to know if it is a <span class="color-primary">Palindrome</span></h2>
+            <p class="section-lead">Your birthdate is checked in 4 formats: <em>mm-dd-yyyy</em>, <em>dd-mm-yyyy</em>, <em>mm-dd-yy</em>, and <em>yyyy-mm-dd</em></p>
+
+            <p class="section-sub-lead">E.g. If your birthdate is <strong>21<sup>st</sup> July 1999</strong>, then the app will check for: <br/> <em>07211999</em>, <em>21071999</em>, <em>072199</em>, <em>19990721</em></p>
+          </section>
+          <section class="check-input">
+            <input type="date" name="birthdate" id="birthdate" class="birthdate" required>
+            <button class="btn-check">Check</button>
+          </section>
+          <section class="check-output display-none">
+            <div class="loading"></div>
+            <div class="message"></div>
+          </section>
+        </div>
+        
+      </main>
+      <footer class="footer">
+        <div id="footer-wrapper" class="container">
+          <p>Made with ❤ by Bharati</p>
+          <ul class="social-links">
+            <li>
+              <a href="">GitHub</a>
+            </li>
+            <li>
+              <a href="">Twitter</a>
+            </li>
+            <li>
+              <a href="">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
 
     <script src="src/index.js"></script>
