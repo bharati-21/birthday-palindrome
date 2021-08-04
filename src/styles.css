@@ -270,8 +270,8 @@ button.btn-check {
 .loading-img {
   display: block;
   margin: auto;
-  padding: 1rem;
-  width: 95%;
+  padding: 1rem 0;
+  width: 100%;
 }
 
 .message {
@@ -376,10 +376,9 @@ button.btn-check {
 
   .section-sub-lead {
     font-size: 1rem;
+    padding-bottom: 1rem;
   }
   .check-input {
-    padding: 0;
-    border: none;
-    padding-bottom: 1rem;
+    padding-top: 1rem;
   }  
 }
