@@ -83,9 +83,10 @@ ul {
 
 .output {
   color: #230338;
-  margin: 1rem;
-  padding: 1rem;
+  margin: 1rem auto 0 auto;
+  text-align: center;
   width: 100%;
+  padding: 1rem;
   border: 2px solid #ed5107;
 }
 
@@ -186,7 +187,7 @@ img.showcase-img {
   position: relative; */
   margin: 1rem;
   background:#f4f4f4;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 /* #main::after {
@@ -219,7 +220,7 @@ img.showcase-img {
 }
 
 .section-lead {
-  margin: 1.5rem auto 1rem auto; 
+  margin: 1.5rem auto 0.5rem auto; 
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -261,9 +262,21 @@ button.btn-check {
   margin-bottom: 0;
 }
 
+.loading {
+  max-width: 400px;
+  margin: 1rem auto;
+}
+
+.loading-img {
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  width: 95%;
+}
 
 .message {
   font-weight: bold;
+  text-align: center;
   font-size: 1.2rem;
 }
 
@@ -351,5 +364,22 @@ button.btn-check {
   nav.navbar ul {
     padding: 1rem 1.5rem;
   }
-  
+
+
+  .section-head {
+    font-size: 1.5rem;
+  }
+
+  .section-lead {
+    font-size: 1.1rem;
+  }
+
+  .section-sub-lead {
+    font-size: 1rem;
+  }
+  .check-input {
+    padding: 0;
+    border: none;
+    padding-bottom: 1rem;
+  }  
 }
