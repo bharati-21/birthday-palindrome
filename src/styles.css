@@ -29,6 +29,10 @@ ul {
   padding: 1rem;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .color-primary {
   color: #ed5107;
 }
@@ -36,7 +40,6 @@ ul {
 .color-secondary {
   color:#d9bafc;
 }
-
 
 .color-dark {
   color:#230338;
@@ -159,7 +162,6 @@ nav.navbar ul li a {
 }
 
 a.try-feat {
-  
   margin-top: 2rem;
 }
 
@@ -306,7 +308,7 @@ button.btn-check {
 }
 
 .social-links li a{
-  margin: 1rem;
+  margin: 1rem 1.5rem;
   color:#d9bafc;
   padding: 0.5rem;
   border-radius: 0.5rem;
@@ -381,4 +383,13 @@ button.btn-check {
   .check-input {
     padding-top: 1rem;
   }  
+}
+
+
+@media screen and (max-width: 500px) {
+  .social-links li{
+    display: block;
+    margin: 1rem;
+  }
+
 }

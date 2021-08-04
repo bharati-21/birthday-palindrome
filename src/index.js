@@ -141,7 +141,7 @@ function displayOutput(isPalindrome, birthdate) {
             diff = closestDateBackward[1];
         }
 
-        messageDiv.innerHTML+=`<br/>The nearest palindrome date is: ${nearestDate}. You missed the date by ${diff} ${diff > 1 ? "days" : "day"}.`
+        messageDiv.innerHTML+=`<br/>The nearest palindrome date is: <span class="color-primary bold">${nearestDate}</span>. You missed the date by <span class="color-primary bold">${diff} ${diff > 1 ? "days" : "day"}</span>.`
     }
     else {
         messageDiv.innerHTML = "Yay! Your birthday is a palindrome";
