@@ -2,7 +2,7 @@
 An application created using JavaScipt that tells the user if their birth date is a palindrome or not.
 
 ### Application created using JavaScript that tells the user if their birthdate is a palindrome. If not, then it displays the nearest palindrome date and by how many days user missed it.
-Live demo of the application: https://bharati-birthday-palindrome.netlify.app/
+[Live demo of the application](https://bharati-birthday-palindrome.netlify.app/)
 <hr />
 
 ## PREREQUISITES
